@@ -1,3 +1,6 @@
+# This code is modified from https://github.com/facebookresearch/segment-anything/blob/main/scripts/amg.py
+# We use the default parameters of SAM, and users may refer https://github.com/facebookresearch/segment-anything for detailed explanations on each argument/parameter.
+
 import cv2
 from segment_anything import SamAutomaticMaskGenerator, sam_model_registry
 import argparse
